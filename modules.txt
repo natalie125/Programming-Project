@@ -1,0 +1,27 @@
+1.pgmEcho.c
+
+The main function of this program is to take 3 arguments: pgmEcho, input file name and output file name. The function of this program is to read the data in a pgm file and put the data to another pgm file. Moreover, it has the capacity to detect and correct problems, ensuring that the programme runs smoothly. 
+
+2.pgmComp.c
+
+The main function of this program is to takes two pgm file names as arguments, reads them and checks whether they are logically identical. It can read and store the data in two files. The program allows the function to compare the data from two pgm files to see if they are logically identical. If they are logically identical, the program will return true and vice versa. There is also a function to make sure it can handle the errors.
+
+3.pgma2b.c
+
+The main function of this program is to take 3 arguments: pgma2b, input file name and output file name. It can convert acsii to binary. There is also a function to make sure it can handle the errors.
+
+4.pgmb2a.c
+
+The main function of this program is to take 3 arguments: pgmb2a, input file name and output file name. It can convert binary to ascii. There is also a function to make sure it can handle the errors.
+
+5.pgmReduce.c
+
+The main function of this program is to take 3 arguments:an input file, an integer factor n and an output file, and reduces the input file in each dimension by that factor. This program is used to reduce the dimension of the pgm file by the integer factor n of the input file. There is also a function to make sure it can handle the errors.
+
+6.pgmTile.c
+
+The main function of this program is takes 3 arguments, an input file , an integer factor n, and an output file name template. It should break the input file into nxn smaller images, each representing a different region of the image. There is also a function to make sure it can handle the errors.
+
+7.pgmAssemble.c
+
+This function is used to combine smaller images into a larger one. It should take 3n+3 arguments of which the first three are: an output file name, width of the output image, height of the output image and the remainder are the layout: triples of: 3i+1 row at which the subimage starts, 3i+2 column at which the subimage starts, 3i+3 the subimage to insert at that .There is also a function to make sure it can handle the errors.

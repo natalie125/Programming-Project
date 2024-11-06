@@ -1,0 +1,48 @@
+COURSEWORK 1
+Natalie Leung
+
+The assignment 1 foler contains 9 .c files, 5 .h files and 1 makefile. 
+
+In order to run the functions, you need to type make to start running makefile.
+Followed by the arguments to run the specific file.
+There are 7 main functions in this folder:
+1.pgmEcho.c
+
+This program's main function is to take three arguments: pgmEcho, input file name, and output file name.
+This program's purpose is to read data from a pgm file and write it to another pgm file.
+Furthermore, it is capable of detecting and correcting errors, ensuring that the application works smoothly. 
+
+2.pgmComp.c
+
+This program's main function is to accept two pgm file names as parameters, read them, and check if they are logically similar.
+It can read and write data in two different files.
+The function in the programme compares data from two pgm files to see if they are conceptually identical.
+The software will return true if they are logically identical, and false otherwise.
+There is also a check to ensure that it can handle mistakes. 
+
+3.pgma2b.c
+
+This program's main function is to take three arguments: pgma2b, input file name, and output file name.
+It has the ability to convert acsii to binary.
+There is also a check to ensure that it can handle mistakes. 
+
+4.pgmb2a.c
+
+This program's main function is to take three arguments: pgmb2a, input file name, and output file name.
+It has the ability to convert binary to ASCII.
+There is also a check to ensure that it can handle mistakes. 
+
+5.pgmReduce.c
+
+This program's main function is to take three arguments: an input file, an integer factor n, and an output file, and reduce the input file by that factor in each dimension. This application reduces the pgm file's dimension by the integer factor n of the input file. There is also a check to ensure that it can handle mistakes.
+
+6.pgmTile.c
+
+This program's main function takes three arguments: an input file, an integer factor n, and a template for the output file name. The input file should be broken down into nxn smaller images, each representing a different part of the image. There is also a check to ensure that it can handle mistakes.
+
+7.pgmAssemble.c
+
+This function is used to merge many photos into one larger image. It should take 3n+3 arguments, with the first three being an output file name, output image width, and output image height, and the rest being the layout: 3i+1 row where the subimage begins, 3i+2 column where the subimage begins, 3i+3 the subimage to put at that. There is also a check to ensure that it can handle mistakes.
+
+After all, we will use make clean to delete all the files made by make.
+There is a testscript to test the basic functions of the files.

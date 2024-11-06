@@ -1,0 +1,3 @@
+To test my programmes, I'll first use normal values to see if they're running properly and producing the expected results. After that, I'll apply edge cases, which are the standard data's upper and lower boundaries. For example, for numeric values, I'll enter the standard data's maximum and lowest values to see if I've appropriately located the mathematical symbol.
+In addition, I will test my application using unexpected and invalid scenarios. When confronted with unexpected situations, my programme should fail gracefully. For example, the range of standard data is 1-100, I can use 101 to test if the error message is printed or the program will continue to run. If the error message is accurately printed, the programme will execute perfectly and will fail flawlessly.
+
